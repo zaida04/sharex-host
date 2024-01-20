@@ -1,15 +1,22 @@
 # sharex-image-host
 
-To install dependencies:
+Made this because I needed to host my own images for ShareX. It's a simple image host that uses [bun](https://bun.sh) and [typescript](https://www.typescriptlang.org/).
+
+To get set up:
 
 ```bash
 bun install
+bun run build
 ```
 
-To run:
+To run (using Bun):
 
 ```bash
-bun run src/index.ts
+bun run start
 ```
 
-This project was created using `bun init` in bun v1.0.18. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+To run (using PM2):
+
+```bash
+pm2 start
+```

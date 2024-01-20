@@ -4,6 +4,7 @@
     "module": "esnext",
     "target": "esnext",
     "moduleResolution": "bundler",
+    "outDir": "dist",
     "moduleDetection": "force",
     "allowImportingTsExtensions": true,
     "noEmit": true,

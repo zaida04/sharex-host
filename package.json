@@ -5,7 +5,9 @@
   "scripts": {
     "check": "biome check src",
     "check:fix": "biome check --apply-unsafe src",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "devDependencies": {
     "@biomejs/biome": "1.5.2",
