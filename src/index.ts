@@ -1,6 +1,6 @@
 import { nanoid } from "nanoid";
-import { logger } from "./logger";
 import { json } from "./http";
+import { logger } from "./logger";
 
 const DOMAIN_NAME = process.env.DOMAIN_NAME ?? "http://localhost:6000";
 const PORT = process.env.PORT ?? 6000;
