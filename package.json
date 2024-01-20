@@ -1,0 +1,22 @@
+{
+  "name": "sharex-image-host",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "check": "biome check src",
+    "check:fix": "biome check --apply-unsafe src",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.5.2",
+    "@types/bun": "^1.0.2",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "nanoid": "^5.0.4",
+    "pino": "^8.17.2"
+  }
+}
