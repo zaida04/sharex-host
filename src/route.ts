@@ -1,5 +1,5 @@
 import { nanoid } from "nanoid";
-import { json, DOMAIN_NAME, getDate } from "./util";
+import { DOMAIN_NAME, getDate, json } from "./util";
 
 export function home() {
 	return json(200, { message: "Hello World" });

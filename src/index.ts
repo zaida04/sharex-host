@@ -1,5 +1,5 @@
 import { getUpload, home, postUpload } from "./route";
-import { PORT, logger, json } from "./util";
+import { PORT, json, logger } from "./util";
 
 Bun.serve({
 	port: PORT,
